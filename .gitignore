@@ -1,1 +1,8 @@
 .venv
+cw3/test/*
+cw3/train/*
+cw3/*.zip
+cw3/wczesniejsze laby/data
+
+!cw3/train/.gitkeep
+!cw3/test/.gitkeep
