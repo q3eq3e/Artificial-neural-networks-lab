@@ -1,0 +1,30 @@
+---------------------------
+--- TRAINING FOR PARAMS ---
+model architecture: [24, 24, 48, 48, 96, 96, 96, 96, 50]
+TRAINING_DATA_PERCENTAGE=0.2
+batch_size=128
+model.act_fn=SiLU()
+num_epochs=120
+lr=0.005
+lambda_reg=0.0003
+-----------
+Epoch 06/120 | train_loss=3.0583 | val_loss=3.0348 | val_acc=0.1993
+Epoch 12/120 | train_loss=2.8202 | val_loss=2.7982 | val_acc=0.2411
+Epoch 18/120 | train_loss=2.6811 | val_loss=2.6350 | val_acc=0.2920
+Epoch 24/120 | train_loss=2.5536 | val_loss=2.5554 | val_acc=0.3110
+Epoch 30/120 | train_loss=2.4715 | val_loss=2.4804 | val_acc=0.3341
+Epoch 36/120 | train_loss=2.4045 | val_loss=2.3566 | val_acc=0.3590
+Epoch 42/120 | train_loss=2.3151 | val_loss=2.2944 | val_acc=0.3769
+Epoch 48/120 | train_loss=2.2679 | val_loss=2.2618 | val_acc=0.3927
+Epoch 54/120 | train_loss=2.2375 | val_loss=2.2563 | val_acc=0.4049
+Epoch 60/120 | train_loss=2.2107 | val_loss=2.2356 | val_acc=0.3957
+Epoch 66/120 | train_loss=2.1583 | val_loss=2.2158 | val_acc=0.4024
+Epoch 72/120 | train_loss=2.1537 | val_loss=2.1630 | val_acc=0.4223
+Epoch 78/120 | train_loss=2.1217 | val_loss=2.1147 | val_acc=0.4281
+Epoch 84/120 | train_loss=2.0867 | val_loss=2.0838 | val_acc=0.4238
+Epoch 90/120 | train_loss=2.0499 | val_loss=2.1208 | val_acc=0.4277
+Epoch 96/120 | train_loss=2.0348 | val_loss=2.0745 | val_acc=0.4244
+Epoch 102/120 | train_loss=2.0139 | val_loss=2.0766 | val_acc=0.4377
+Epoch 108/120 | train_loss=2.0122 | val_loss=2.0945 | val_acc=0.4315
+Epoch 114/120 | train_loss=1.9996 | val_loss=2.0855 | val_acc=0.4319
+Epoch 120/120 | train_loss=1.9636 | val_loss=2.0349 | val_acc=0.4493
